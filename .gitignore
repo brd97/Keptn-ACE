@@ -1,0 +1,21 @@
+# OS-specific
+.DS_Store
+
+# Vagrant stuff
+*/.vagrant/
+microk8s/*.log
+*config.yml
+
+#Generated files
+*gen.yml
+*gen.yaml
+*gen.html
+*.tgz
+*.tgz.sig
+*.pem
+kubeconfig
+
+microk8s/ansible/kubeconfig
+
+Dynatrace-ActiveGate-Linux-x86-latest.sh
+self-monitoring-*
